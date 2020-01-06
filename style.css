@@ -1,0 +1,107 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background-color: #33FFDD;
+}
+
+h1{
+	font-size: 9rem;
+	font-weight: 50;
+	margin: 10rem 0 10rem;
+	text-align: center;
+	color: #fff;
+	font-family: 'Ma Shan Zheng', cursive;
+}
+
+.styling{
+	font-weight: 800;
+	color: pink;
+}
+
+.input_div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.input_div .input{
+	padding: 0.5rem 1rem;
+	height: 50px;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	width: 450px;
+	font-size: 1.15rem;
+	margin: 0.25rem;
+	border-radius: 25px;
+}
+
+.addButton{
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	color: lime;
+	margin: 0.25rem;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.addButton : hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 4px solid #fff;
+}
+
+.item_input{
+	border: none;
+	background: none;
+	outline: none;
+	color: #fff;
+	width: 350px;
+	font-size: 1.4rem;
+}
+
+
+.editButton{
+	font-size: 1.4rem;
+	margin: 0 0.5rem;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background: none;
+	outline: none;
+	color: lime;
+	border: none;
+	cursor: pointer;
+}
+
+.removeButton{
+	font-size: 1.4rem;
+	margin: 0 0.5rem;
+	font-family: 'PT Sans Narrow', sans-serif;
+	background: none;
+	outline: none;
+	color: #DD1717;
+	border: none;
+	cursor: pointer;
+	
+}
